@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <recordingsPath></recordingsPath>
+  <virtualPath>/Recordings/</virtualPath>
+  <archiveRecordingsPath></archiveRecordingsPath>
+  <archiveVirtualPath>/ArchiveRecordings/</archiveVirtualPath>
+  <archiveEnabled>False</archiveEnabled>
+  <secondaryRecordingsPath></secondaryRecordingsPath>
+  <secondaryHTMLRecordingsPath></secondaryHTMLRecordingsPath>
+  <maxRecordsToReturn>100</maxRecordsToReturn>
+  <useDatabase>True</useDatabase>
+  <useStructuredFileSystem>False</useStructuredFileSystem>
+  <filterAtDatabase>false</filterAtDatabase>
+  <cdrTableName>IpPbxCDR</cdrTableName>
+  <dataSource>.\SQLEXPRESS</dataSource>
+  <databaseName>IpPbxCDR</databaseName>
+  <databaseUserId>reachall</databaseUserId>
+  <databasePassword>reachall</databasePassword>
+  <searchSubDirectories>False</searchSubDirectories>
+  <security>True</security>
+  <xrefDestination>True</xrefDestination>
+  <xrefTransferredCalls>True</xrefTransferredCalls>
+  <callRecordingTable>CallRecordingsTable</callRecordingTable>
+  <useNewDateSearch>False</useNewDateSearch>
+  <callIdAlias>True</callIdAlias>
+  <timeStampName>TimeStamp</timeStampName>
+  <drillDownBypassesLogin>True</drillDownBypassesLogin>
+  <useTempCDRTable>False</useTempCDRTable>
+  <callRecordingFilenameFormat>[callid]#[calldirection]#[internaladdress]#[remotename]#[remoteaddress]#[date]#[time]</callRecordingFilenameFormat>
+  <useNewSecurity>False</useNewSecurity>
+  <useNewInterface>False</useNewInterface>
+  <downloadText></downloadText>
+</Config>

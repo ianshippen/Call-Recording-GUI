@@ -1,0 +1,47 @@
+﻿#resultsTable
+{
+    width: 100%;
+    text-align: left;
+    padding: 3px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    background-color: #256bb1; 
+}
+
+#resultsTable tr:first-child
+{
+    background-color: #C3C6CC;
+}
+
+#resultsTable tr:nth-child(even)
+{
+    background-color: #63A1DF;
+}
+
+#resultsTable tr:nth-child(2n+3)
+{
+    background-color: #ACCDE9;
+}
+
+#summaryTable
+{
+    width: 100%;
+    text-align: center;
+}
+
+#summaryTable td:first-child
+{
+    width: 25%
+}
+
+#summaryTable td:last-child
+{
+    width: 25%
+}
+
+#breakBetweenTables
+{
+    display: none;
+}
+
+

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D122F372-E7BF-4FCC-B9DB-AB83B3C1B35F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Call_Recording_GUI</RootNamespace>
+    <AssemblyName>Call Recording GUI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Call Recording GUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Call Recording GUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IpPbxCDSClientLib, Version=6.20.0.430, Culture=neutral, PublicKeyToken=cf78dfa0a74454f8, processorArchitecture=MSIL" />
+    <Reference Include="IpPbxCDSSharedLib, Version=7.0.0.528, Culture=neutral, PublicKeyToken=cf78dfa0a74454f8, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\login_logo.jpg" />
+    <Content Include="assets\login_logo.png" />
+    <Content Include="assets\logo_swyx_rec_logo.jpg" />
+    <Content Include="assets\logo_swyx_rec_logo.png" />
+    <Content Include="CallRecordingGUI.aspx" />
+    <Content Include="icons8-person-96.png" />
+    <Content Include="ReachAllCallRecordingStyleSheet.css" />
+    <Content Include="ReachAllCallRecordingStyleSheetNewInterface.css" />
+    <Content Include="ReachAllCallRecordingStyleSheetNewInterface_Knowall.css" />
+    <Content Include="ReachAllOptions.xml" />
+    <Content Include="ReachAll_Recording.png" />
+    <Content Include="Web.config" />
+    <Content Include="Config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\ReachAllWebInterface\ReachAllWebInterface\InterfaceAspectClass.vb">
+      <Link>InterfaceAspectClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\CallRecordingSecurity.vb">
+      <Link>CallRecordingSecurity.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\CompositeSQLClass.vb">
+      <Link>CompositeSQLClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\DatabaseAccess.vb">
+      <Link>DatabaseAccess.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\DateAndTimeClass.vb">
+      <Link>DateAndTimeClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\DictionaryClass.vb">
+      <Link>DictionaryClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\ExtraDataClass.vb">
+      <Link>ExtraDataClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\Initialisation.vb">
+      <Link>Initialisation.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\JoinClass.vb">
+      <Link>JoinClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\LoginDetailsClass.vb">
+      <Link>LoginDetailsClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\Logutil.vb">
+      <Link>Logutil.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\MultisiteSettingsEntry.vb">
+      <Link>MultisiteSettingsEntry.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\Options.vb">
+      <Link>Options.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\PairListClass.vb">
+      <Link>PairListClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\ParameterisedSQLParmClass.vb">
+      <Link>ParameterisedSQLParmClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\Security.vb">
+      <Link>Security.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\SecurityEntryClass.vb">
+      <Link>SecurityEntryClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\SecurityListClass.vb">
+      <Link>SecurityListClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\SOC.vb">
+      <Link>SOC.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\SOCEntryClass.vb">
+      <Link>SOCEntryClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\SQLStatementClass.vb">
+      <Link>SQLStatementClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\TaggedPairListClass.vb">
+      <Link>TaggedPairListClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\TaggedStringClass.vb">
+      <Link>TaggedStringClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\Target.vb">
+      <Link>Target.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\Utilities.vb">
+      <Link>Utilities.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\WebColourClass.vb">
+      <Link>WebColourClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\WebColours.vb">
+      <Link>WebColours.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\WindowsPathClass.vb">
+      <Link>WindowsPathClass.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\XMLUtils.vb">
+      <Link>XMLUtils.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Wallboard Viewer\Wallboard Viewer\XMLWriterClass.vb">
+      <Link>XMLWriterClass.vb</Link>
+    </Compile>
+    <Compile Include="CallRecordingGUI.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>CallRecordingGUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CallRecordingGUI.aspx.designer.vb">
+      <DependentUpon>CallRecordingGUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HandleRequest.vb" />
+    <Compile Include="HandleRequestParameterisedSQL.vb" />
+    <Compile Include="HandleStoredProcedureRequest.vb" />
+    <Compile Include="LocalUtilities.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewHandler.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2140</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

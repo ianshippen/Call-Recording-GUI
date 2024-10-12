@@ -1,0 +1,22 @@
+<publishData>
+  <publishTarget publishUrl="C:\Inetpub\wwwroot\CallRecordingGUI\">
+    <file relUrl="bin/Call Recording GUI.pdb" publishTime="10/03/2021 17:44:29" />
+    <file relUrl="bin/Call Recording GUI.dll" publishTime="10/03/2021 17:44:29" />
+    <file relUrl="icons8-person-96.png" publishTime="08/18/2020 22:55:53" />
+    <file relUrl="Web.config" publishTime="01/09/2021 22:55:05" />
+    <file relUrl="ReachAll_Recording.png" publishTime="09/10/2020 19:01:11" />
+    <file relUrl="Config.xml" publishTime="10/01/2021 20:19:57" />
+    <file relUrl="ReachAllOptions.xml" publishTime="07/05/2021 11:13:40" />
+    <file relUrl="CallRecordingGUI.aspx" publishTime="09/21/2021 21:20:57" />
+    <file relUrl="bin/Call Recording GUI.xml" publishTime="10/03/2021 17:44:29" />
+    <file relUrl="ReachAllCallRecordingStyleSheet.css" publishTime="09/12/2020 13:50:11" />
+    <file relUrl="assets/login_logo.png" publishTime="03/09/2021 07:52:48" />
+    <file relUrl="assets/logo_swyx_rec_logo.jpg" publishTime="09/17/2014 07:25:34" />
+    <file relUrl="bin/IpPbxCDSClientLib.dll" publishTime="11/21/2008 12:16:00" />
+    <file relUrl="assets/logo_swyx_rec_logo.png" publishTime="03/09/2021 07:52:48" />
+    <file relUrl="assets/login_logo.jpg" publishTime="04/18/2017 10:07:40" />
+    <file relUrl="bin/IpPbxCDSSharedLib.dll" publishTime="01/24/2012 23:48:00" />
+    <file relUrl="ReachAllCallRecordingStyleSheetNewInterface.css" publishTime="09/14/2020 16:29:26" />
+    <file relUrl="ReachAllCallRecordingStyleSheetNewInterface_Knowall.css" publishTime="10/03/2021 17:44:26" />
+  </publishTarget>
+</publishData>

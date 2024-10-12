@@ -1,0 +1,732 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CallRecordingGUI
+</name>
+</assembly>
+<members>
+<member name="P:Call_Recording_GUI.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Call_Recording_GUI.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Call_Recording_GUI.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Call_Recording_GUI.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Call_Recording_GUI.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Call_Recording_GUI.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Call_Recording_GUI._Default.styleLiteral">
+	<summary>
+styleLiteral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_offset">
+	<summary>
+f_offset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_loggedIn">
+	<summary>
+f_loggedIn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_parm">
+	<summary>
+f_parm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_data">
+	<summary>
+f_data control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.loginPanel">
+	<summary>
+loginPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_userName">
+	<summary>
+f_userName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_password">
+	<summary>
+f_password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.loginButton">
+	<summary>
+loginButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.changePasswordButton">
+	<summary>
+changePasswordButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.cpRow_1">
+	<summary>
+cpRow_1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.newPasswordTextBox">
+	<summary>
+newPasswordTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.cpRow_2">
+	<summary>
+cpRow_2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.newPasswordAgainTextBox">
+	<summary>
+newPasswordAgainTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.cpRow_3">
+	<summary>
+cpRow_3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.confirmChangePasswordButton">
+	<summary>
+confirmChangePasswordButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.changePasswordResponseLegacy">
+	<summary>
+changePasswordResponseLegacy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.loginPanelNewInterface">
+	<summary>
+loginPanelNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.userNameNewInterface">
+	<summary>
+userNameNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.passwordNewInterface">
+	<summary>
+passwordNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.loginButtonNewInterface">
+	<summary>
+loginButtonNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.changePasswordButtonNewInterface">
+	<summary>
+changePasswordButtonNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.changePasswordResponseNewInterface">
+	<summary>
+changePasswordResponseNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.changePasswordPanelNewInterface">
+	<summary>
+changePasswordPanelNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.newPasswordTextBoxNewInterface">
+	<summary>
+newPasswordTextBoxNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.newPasswordAgainTextBoxNewInterface">
+	<summary>
+newPasswordAgainTextBoxNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.confirmChangePasswordButtonNewInterface">
+	<summary>
+confirmChangePasswordButtonNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.responseTable">
+	<summary>
+responseTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.changePasswordResponse">
+	<summary>
+changePasswordResponse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.adminChoiceTable">
+	<summary>
+adminChoiceTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.recordingsButton">
+	<summary>
+recordingsButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.adminButton">
+	<summary>
+adminButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.closeButton">
+	<summary>
+closeButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.adminTable">
+	<summary>
+adminTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.administratorsLit0">
+	<summary>
+administratorsLit0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.administratorsLit1">
+	<summary>
+administratorsLit1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.administratorsUsernameText">
+	<summary>
+administratorsUsernameText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.administratorsPasswordText">
+	<summary>
+administratorsPasswordText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.addAdministratorButton">
+	<summary>
+addAdministratorButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.supervisorsLit0">
+	<summary>
+supervisorsLit0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.supervisorsLit1">
+	<summary>
+supervisorsLit1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.supervisorsLit2">
+	<summary>
+supervisorsLit2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.supervisorsUsernameText">
+	<summary>
+supervisorsUsernameText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.supervisorsPasswordText">
+	<summary>
+supervisorsPasswordText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.supervisorsDataText">
+	<summary>
+supervisorsDataText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.addSupervisorButton">
+	<summary>
+addSupervisorButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.adminOKButton">
+	<summary>
+adminOKButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.searchPanel">
+	<summary>
+searchPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_startDate">
+	<summary>
+f_startDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_endDate">
+	<summary>
+f_endDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_extension">
+	<summary>
+f_extension control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_destination">
+	<summary>
+f_destination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_callId">
+	<summary>
+f_callId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.TestButton">
+	<summary>
+TestButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.calendar1">
+	<summary>
+calendar1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.calendar2">
+	<summary>
+calendar2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.f_tag">
+	<summary>
+f_tag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.startTime">
+	<summary>
+startTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.endTime">
+	<summary>
+endTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.callTypeList">
+	<summary>
+callTypeList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.logoutButton">
+	<summary>
+logoutButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.clearButton">
+	<summary>
+clearButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.submitButton">
+	<summary>
+submitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.legacyCheckBox">
+	<summary>
+legacyCheckBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.newInterfaceSearchPanel">
+	<summary>
+newInterfaceSearchPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.newInterfaceLogoutButton">
+	<summary>
+newInterfaceLogoutButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.newInterfaceClearButton">
+	<summary>
+newInterfaceClearButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.newInterfaceSubmitButton">
+	<summary>
+newInterfaceSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.timeSpanNewInterfaceDropDownList">
+	<summary>
+timeSpanNewInterfaceDropDownList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.ignoreTimeNewInterfaceCheckBox">
+	<summary>
+ignoreTimeNewInterfaceCheckBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.startTimeNewInterfaceLabel">
+	<summary>
+startTimeNewInterfaceLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.startTimeNewInterfaceDropDownList">
+	<summary>
+startTimeNewInterfaceDropDownList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.endTimeNewInterfaceLabel">
+	<summary>
+endTimeNewInterfaceLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.endTimeNewInterfaceDropDownList">
+	<summary>
+endTimeNewInterfaceDropDownList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.calendar3">
+	<summary>
+calendar3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.calendar4">
+	<summary>
+calendar4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.extensionTextBoxNewInterface">
+	<summary>
+extensionTextBoxNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.externalNumberTextBoxNewInterface">
+	<summary>
+externalNumberTextBoxNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.callIdTextBoxNewInterface">
+	<summary>
+callIdTextBoxNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.directionDropDownListNewInterface">
+	<summary>
+directionDropDownListNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.summaryPanelNewInterface">
+	<summary>
+summaryPanelNewInterface control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.prevButton">
+	<summary>
+prevButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.recordsLabel">
+	<summary>
+recordsLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.nextButton">
+	<summary>
+nextButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.myRepeater">
+	<summary>
+myRepeater control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Call_Recording_GUI._Default.myLiteral">
+	<summary>
+myLiteral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

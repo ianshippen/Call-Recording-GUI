@@ -1,0 +1,27 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.dll
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.xml
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call_Recording_GUI.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.dll
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.xml
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.pdb
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.dll
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.pdb
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.xml
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call_Recording_GUI.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.dll
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.xml
+C:\Documents and Settings\Administrator\Desktop\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.pdb
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.dll
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.pdb
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\bin\Call Recording GUI.xml
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call_Recording_GUI.Resources.resources
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.dll
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.xml
+C:\Documents and Settings\Ian\My Documents\Visual Studio 2008\Projects\Call Recording GUI\Call Recording GUI\obj\Debug\Call Recording GUI.pdb
